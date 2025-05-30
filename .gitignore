@@ -1,16 +1,6 @@
+*.tfstate
+*.tfstate.backup
 .terraform/
-terraform.tfstate
-terraform.tfstate.backup
-*.tfplan
-*.zip
-serverkey
-serverkey.pub
-
-.terraform/
-terraform.tfstate
-terraform.tfstate.backup
-*.tfplan
-*.zip
-serverkey
-serverkey.pub
+.terraform.lock.hcl
+crash.log
 
