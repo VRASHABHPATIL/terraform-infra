@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "my_s3_bucket"{
-    bucket = "secure_store"
+    bucket = "ittsecurestore"
 
     tags = {
     Name = "My bucket"
