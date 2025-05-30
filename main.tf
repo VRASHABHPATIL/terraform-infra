@@ -1,3 +1,6 @@
+module "s3" {
+  source = "./modules/S3"
+}
 module "Secret_SSH_Key" {
   source          = "./modules/key"
   Server_Key_Name = var.Web_Server_Key_Name
