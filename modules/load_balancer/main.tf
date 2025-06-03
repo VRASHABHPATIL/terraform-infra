@@ -38,6 +38,6 @@ resource "aws_lb_target_group_attachment" "tg_attachment" {
   count            = length(var.instance_ids)
   target_group_arn = aws_lb_target_group.app_tg.arn
   target_id        = var.instance_ids[count.index]
-  port             = 80
+  port             = 5001
 }
 
