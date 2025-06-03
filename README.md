@@ -1,1 +1,1 @@
-# terraform-infra for final project inTimeTec
+# terraform-infra for final project InTimeTec
